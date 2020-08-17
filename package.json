@@ -2,13 +2,27 @@
   "name": "createcomponent",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://192.168.2.5/",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@lunarr/vlc-player": "^1.0.2",
+    "@ssttevee/multipart-parser": "^0.1.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "base-64": "^0.1.0",
+    "dgram": "^1.0.1",
+    "flvplayer": "^1.1.8",
+    "http-digest-client": "0.0.3",
+    "node-sass": "^4.14.1",
+    "parse-multipart": "^1.0.4",
+    "parse-multipart-data": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-masonry-css": "^1.0.14",
+    "react-scripts": "3.4.1",
+    "sass": "^1.26.10",
+    "string-to-arraybuffer": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,6 +43,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   }
 }

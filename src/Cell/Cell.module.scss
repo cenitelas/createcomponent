@@ -1,0 +1,41 @@
+.cell{
+  position: relative;
+  float: left;
+  background-color: black;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  vertical-align: top;
+  vert-align: top;
+  transition: all 0.5s ease;
+}
+
+.box4 {
+  order:1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.box3 {
+  order:2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box2 {
+  order:3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.box1 {
+  order:4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
